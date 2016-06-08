@@ -1,0 +1,11 @@
+body a, body div {
+  text-align: center;
+  font-size: 2em;
+  color: limegreen;
+  text-decoration: none;
+  width: auto;
+}
+
+body {
+  background-color: lavender;
+}

@@ -9,7 +9,7 @@ class JokesController < ApplicationController
   def index
     jokePrefix = JOKESPREFIX.sample
     punchline = RandomWord.nouns.next
-    render text: jokePrefix + " " + punchline.humanize
+    @joke = jokePrefix + " " + punchline.humanize
   end
 
 end
